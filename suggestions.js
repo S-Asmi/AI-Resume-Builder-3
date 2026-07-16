@@ -1,0 +1,402 @@
+// Common job roles for autocomplete
+export const jobRoles = [
+  // Software Engineering
+  'Software Engineer',
+  'Senior Software Engineer',
+  'Staff Software Engineer',
+  'Principal Software Engineer',
+  'Frontend Developer',
+  'Backend Developer',
+  'Full Stack Developer',
+  'Mobile Developer',
+  'iOS Developer',
+  'Android Developer',
+  'DevOps Engineer',
+  'Site Reliability Engineer',
+  'Cloud Engineer',
+  'Solutions Architect',
+  'Software Architect',
+  
+  // Data & AI
+  'Data Scientist',
+  'Data Analyst',
+  'Data Engineer',
+  'Machine Learning Engineer',
+  'AI Engineer',
+  'Research Scientist',
+  'Business Intelligence Analyst',
+  
+  // Product & Design
+  'Product Manager',
+  'Senior Product Manager',
+  'Product Owner',
+  'UX Designer',
+  'UI Designer',
+  'UX/UI Designer',
+  'Product Designer',
+  'Graphic Designer',
+  
+  // Management
+  'Engineering Manager',
+  'Technical Lead',
+  'Team Lead',
+  'Project Manager',
+  'Program Manager',
+  'Scrum Master',
+  'Agile Coach',
+  
+  // QA & Testing
+  'QA Engineer',
+  'Test Engineer',
+  'Automation Engineer',
+  'Quality Assurance Analyst',
+  
+  // Security
+  'Security Engineer',
+  'Cybersecurity Analyst',
+  'Information Security Analyst',
+  'Penetration Tester',
+  
+  // Other Tech Roles
+  'Database Administrator',
+  'System Administrator',
+  'Network Engineer',
+  'Technical Support Engineer',
+  'IT Support Specialist',
+  'Business Analyst',
+  'Technical Writer',
+];
+
+// Technical skills suggestions
+export const technicalSkills = [
+  // Programming Languages
+  'JavaScript',
+  'TypeScript',
+  'Python',
+  'Java',
+  'C++',
+  'C#',
+  'Go',
+  'Rust',
+  'Ruby',
+  'PHP',
+  'Swift',
+  'Kotlin',
+  'Dart',
+  'Scala',
+  'R',
+  'MATLAB',
+  
+  // Frontend
+  'React',
+  'React Native',
+  'Angular',
+  'Vue.js',
+  'Next.js',
+  'Nuxt.js',
+  'Svelte',
+  'HTML5',
+  'CSS3',
+  'SASS',
+  'LESS',
+  'Tailwind CSS',
+  'Bootstrap',
+  'Material-UI',
+  'Redux',
+  'MobX',
+  'Webpack',
+  'Vite',
+  
+  // Backend
+  'Node.js',
+  'Express.js',
+  'Django',
+  'Flask',
+  'FastAPI',
+  'Spring Boot',
+  'ASP.NET',
+  'Ruby on Rails',
+  'Laravel',
+  'NestJS',
+  
+  // Databases
+  'MongoDB',
+  'PostgreSQL',
+  'MySQL',
+  'Redis',
+  'Cassandra',
+  'DynamoDB',
+  'Firebase',
+  'Elasticsearch',
+  'Oracle',
+  'SQL Server',
+  
+  // Cloud & DevOps
+  'AWS',
+  'Azure',
+  'Google Cloud Platform',
+  'Docker',
+  'Kubernetes',
+  'Jenkins',
+  'GitLab CI/CD',
+  'GitHub Actions',
+  'Terraform',
+  'Ansible',
+  'CircleCI',
+  
+  // Mobile
+  'React Native',
+  'Flutter',
+  'SwiftUI',
+  'Jetpack Compose',
+  'Xamarin',
+  
+  // Data Science & ML
+  'TensorFlow',
+  'PyTorch',
+  'Scikit-learn',
+  'Pandas',
+  'NumPy',
+  'Keras',
+  'OpenCV',
+  'NLTK',
+  'Spark',
+  'Hadoop',
+  
+  // Tools & Others
+  'Git',
+  'GitHub',
+  'GitLab',
+  'Bitbucket',
+  'JIRA',
+  'Confluence',
+  'Slack',
+  'Figma',
+  'Adobe XD',
+  'Sketch',
+  'Postman',
+  'VS Code',
+  'IntelliJ IDEA',
+  'Linux',
+  'Bash',
+  'GraphQL',
+  'REST API',
+  'Microservices',
+  'Agile',
+  'Scrum',
+  'CI/CD',
+];
+
+// Soft skills suggestions
+export const softSkills = [
+  'Leadership',
+  'Communication',
+  'Team Collaboration',
+  'Problem Solving',
+  'Critical Thinking',
+  'Time Management',
+  'Project Management',
+  'Adaptability',
+  'Creativity',
+  'Attention to Detail',
+  'Analytical Thinking',
+  'Decision Making',
+  'Conflict Resolution',
+  'Mentoring',
+  'Public Speaking',
+  'Presentation Skills',
+  'Negotiation',
+  'Customer Service',
+  'Emotional Intelligence',
+  'Work Ethic',
+  'Self-Motivation',
+  'Flexibility',
+  'Organization',
+  'Strategic Planning',
+  'Innovation',
+];
+
+// Language proficiency suggestions
+export const languages = [
+  'English (Native)',
+  'English (Fluent)',
+  'English (Professional)',
+  'English (Intermediate)',
+  'Spanish (Native)',
+  'Spanish (Fluent)',
+  'Spanish (Professional)',
+  'Spanish (Intermediate)',
+  'French (Native)',
+  'French (Fluent)',
+  'French (Professional)',
+  'French (Intermediate)',
+  'German (Native)',
+  'German (Fluent)',
+  'German (Professional)',
+  'German (Intermediate)',
+  'Mandarin (Native)',
+  'Mandarin (Fluent)',
+  'Mandarin (Professional)',
+  'Mandarin (Intermediate)',
+  'Hindi (Native)',
+  'Hindi (Fluent)',
+  'Hindi (Professional)',
+  'Hindi (Intermediate)',
+  'Arabic (Native)',
+  'Arabic (Fluent)',
+  'Arabic (Professional)',
+  'Arabic (Intermediate)',
+  'Portuguese (Native)',
+  'Portuguese (Fluent)',
+  'Portuguese (Professional)',
+  'Portuguese (Intermediate)',
+  'Japanese (Native)',
+  'Japanese (Fluent)',
+  'Japanese (Professional)',
+  'Japanese (Intermediate)',
+  'Korean (Native)',
+  'Korean (Fluent)',
+  'Korean (Professional)',
+  'Korean (Intermediate)',
+  'Italian (Native)',
+  'Italian (Fluent)',
+  'Italian (Professional)',
+  'Italian (Intermediate)',
+];
+
+// Degree suggestions
+export const degrees = [
+  // Undergraduate Degrees
+  'Bachelor of Science (B.Sc.)',
+  'Bachelor of Arts (B.A.)',
+  'Bachelor of Engineering (B.E.)',
+  'Bachelor of Technology (B.Tech)',
+  'Bachelor of Computer Science (B.C.S.)',
+  'Bachelor of Business Administration (BBA)',
+  'Bachelor of Commerce (B.Com)',
+  'Bachelor of Fine Arts (BFA)',
+  'Bachelor of Architecture (B.Arch)',
+  'Bachelor of Design (B.Des)',
+  
+  // Master's Degrees
+  'Master of Science (M.Sc.)',
+  'Master of Arts (M.A.)',
+  'Master of Engineering (M.E.)',
+  'Master of Technology (M.Tech)',
+  'Master of Computer Applications (MCA)',
+  'Master of Business Administration (MBA)',
+  'Master of Commerce (M.Com)',
+  'Master of Fine Arts (MFA)',
+  'Master of Architecture (M.Arch)',
+  'Master of Design (M.Des)',
+  'Master of Public Health (MPH)',
+  'Master of Social Work (MSW)',
+  
+  // Doctoral Degrees
+  'Doctor of Philosophy (Ph.D.)',
+  'Doctor of Medicine (M.D.)',
+  'Doctor of Business Administration (DBA)',
+  'Doctor of Education (Ed.D.)',
+  
+  // Professional Degrees
+  'Juris Doctor (J.D.)',
+  'Doctor of Dental Surgery (DDS)',
+  'Doctor of Veterinary Medicine (DVM)',
+  
+  // Associate Degrees
+  'Associate of Science (A.S.)',
+  'Associate of Arts (A.A.)',
+  'Associate of Applied Science (AAS)',
+  
+  // Diplomas & Certificates
+  'Diploma',
+  'Advanced Diploma',
+  'Post Graduate Diploma (PGD)',
+  'Graduate Certificate',
+  'Professional Certificate',
+  
+  // High School
+  'High School Diploma',
+  'GED',
+];
+
+// Field of study suggestions
+export const fieldsOfStudy = [
+  // Computer Science & IT
+  'Computer Science',
+  'Information Technology',
+  'Software Engineering',
+  'Computer Engineering',
+  'Data Science',
+  'Artificial Intelligence',
+  'Machine Learning',
+  'Cybersecurity',
+  'Information Systems',
+  'Web Development',
+  
+  // Engineering
+  'Mechanical Engineering',
+  'Electrical Engineering',
+  'Civil Engineering',
+  'Chemical Engineering',
+  'Aerospace Engineering',
+  'Biomedical Engineering',
+  'Industrial Engineering',
+  'Environmental Engineering',
+  'Electronics Engineering',
+  
+  // Business & Management
+  'Business Administration',
+  'Finance',
+  'Accounting',
+  'Marketing',
+  'Human Resources',
+  'International Business',
+  'Entrepreneurship',
+  'Supply Chain Management',
+  'Operations Management',
+  
+  // Sciences
+  'Physics',
+  'Chemistry',
+  'Biology',
+  'Mathematics',
+  'Statistics',
+  'Biotechnology',
+  'Environmental Science',
+  'Neuroscience',
+  
+  // Arts & Humanities
+  'English Literature',
+  'History',
+  'Philosophy',
+  'Psychology',
+  'Sociology',
+  'Political Science',
+  'Economics',
+  'Communications',
+  'Journalism',
+  
+  // Design & Creative
+  'Graphic Design',
+  'Industrial Design',
+  'Fashion Design',
+  'Interior Design',
+  'Animation',
+  'Film Production',
+  'Photography',
+  
+  // Health & Medicine
+  'Medicine',
+  'Nursing',
+  'Pharmacy',
+  'Public Health',
+  'Dentistry',
+  'Physical Therapy',
+  
+  // Other
+  'Architecture',
+  'Law',
+  'Education',
+  'Social Work',
+];
